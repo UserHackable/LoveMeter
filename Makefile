@@ -11,12 +11,11 @@
 # 
 # # Gerbv PCB image preview parameters - colours, plus resolution.
 GERBER_IMAGE_RESOLUTION?=600
-BACKGROUND_COLOR?=\#006600
+BACKGROUND_COLOR?=\#990000
 HOLES_COLOR?=\#000000
 SILKSCREEN_COLOR?=\#ffffff
 PADS_COLOR?=\#FFDE4E
-TOP_SOLDERMASK_COLOR?=\#009900
-BOTTOM_SOLDERMASK_COLOR?=\#2D114A
+SOLDER_MASK_COLOR?=\#CC0000
 GERBV_OPTIONS= --export=png --dpi=$(GERBER_IMAGE_RESOLUTION) --background=$(BACKGROUND_COLOR) --border=1
 
 # # STUFF YOU WILL NEED:
@@ -35,16 +34,20 @@ GERBV_OPTIONS= --export=png --dpi=$(GERBER_IMAGE_RESOLUTION) --background=$(BACK
 # .PHONY: gerbers
 # 
 
-.SECONDARY:
+.SECONDARY: .png
 
 boards := $(wildcard *.brd)
 zips := $(patsubst %.brd,%_gerber.zip,$(boards))
 pngs := $(patsubst %.brd,%.png,$(boards))
 back_pngs := $(patsubst %.brd,%_back.png,$(boards))
+mds := $(patsubst %.brd,%.md,$(boards))
 
 GERBER_DIR=gerbers
 
-all: $(zips) $(pngs) $(back_pngs)
+all: $(zips) $(pngs) $(back_pngs) README.md
+
+README.md: Intro.md $(mds)
+	cat $+ > README.md 
 
 %.GTL: %.brd
 	eagle -X -d GERBER_RS274X -o $@ $< Top Pads Vias Dimension
@@ -85,7 +88,7 @@ all: $(zips) $(pngs) $(back_pngs)
         --f=$(HOLES_COLOR) $*.TXT \
         --f=$(SILKSCREEN_COLOR) $*.GTO \
         --f=$(PADS_COLOR) $*.GTS \
-        --f=$(TOP_SOLDERMASK_COLOR) $*.GTL
+        --f=$(SOLDER_MASK_COLOR) $*.GTL
 	convert $@ -alpha set -fill none -draw 'matte 0,0 floodfill' -trim $@
 
 %_back.png: %.TXT %.GBO %.GBS %.GBL
@@ -93,14 +96,13 @@ all: $(zips) $(pngs) $(back_pngs)
         --f=$(HOLES_COLOR) $*.TXT \
         --f=$(SILKSCREEN_COLOR) $*.GBO \
         --f=$(PADS_COLOR) $*.GBS \
-        --f=$(TOP_SOLDERMASK_COLOR) $*.GBL
+        --f=$(SOLDER_MASK_COLOR) $*.GBL
 	convert $@ -alpha set -fill none -draw 'matte 0,0 floodfill' -flop -trim +repage $@
 
-clean:
-	rm -f *.zip *.GTL *.GBL *.GTO *.GTP *.GBO *.GTS *.GBS *.GML *.TXT *.gpi *.png *.dri
-
-README.md: 
-	echo "$(PROJECT_NAME) \n\n ![](https://github.com/$(GITHUB_USER)/$(PROJECT_NAME)/raw/master/$(PROJECT_NAME)-pcb.png)" >>  README.md
+%.md: %.png %_back.png %.GTL
+	echo "## $* \n\n" >  $@
+	gerber_board_size $*.GTL >> $@
+	echo "\n\n| Front | Back |\n| --- | --- |\n| ![Front]($*.png) | ![Back]($*_back.png) |\n\n" >>  $@
 
 .gitignore:
 	echo "\n*~\n.*.swp\n*.?#?\n.*.lck" > .gitignore
@@ -110,6 +112,15 @@ README.md:
 	git init
 	git add .
 	git commit -m 'First Commit'
+
+Intro.md:
+	touch Intro.md
+
+clean:
+	rm -rf *.G[TBM][LOPS] *.TXT *.dri *.gpi
+	rm -rf *.[bs]#?
+
+
 
 # # TO DO: Can we get Eagle to automatically export the schematic, as a PDF or PostScript or PNG, at the command line?
 # eagle -C "print file .pdf; quit;" Pixie85.sch

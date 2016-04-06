@@ -7,16 +7,19 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/opt/eagle-7.5.0/lbr/SparkFun/SparkFun-Aesthetics.lbr"
-UsedLibrary="/opt/eagle-7.5.0/lbr/SparkFun/SparkFun-Connectors.lbr"
-UsedLibrary="/opt/eagle-7.5.0/lbr/SparkFun/SparkFun-DiscreteSemi.lbr"
-UsedLibrary="ThumbPad.lbr"
-UsedLibrary="/opt/eagle-7.5.0/lbr/UserHackable/battery.lbr"
 UsedLibrary="/opt/eagle-7.5.0/lbr/UserHackable/barbary_enterprises.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/SparkFun/SparkFun-Connectors.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/Adafruit/adafruit.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/SparkFun/SparkFun-Aesthetics.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/4H/4h.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/UserHackable/battery.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/UserHackable/logo.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/SparkFun/SparkFun-DigitalIC.lbr"
+UsedLibrary="/opt/eagle-7.5.0/lbr/UserHackable/AtmelAvr.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="155 24 1114 1051"
+Loc="182 24 1141 1023"
 State=1
 Number=0
 
