@@ -1,5 +1,5 @@
 ** Drc report for LoveMeter.kicad_pcb **
-** Created on 2026-07-19T19:27:50 **
+** Created on 2026-07-19T19:30:06 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 141 DRC violations **
@@ -27,26 +27,22 @@
     Rule: board setup solder mask min width; error
     @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
     @(57.1500 mm, -15.2400 mm): Pad 2 [B4] of U$3 on F.Cu
-[shorting_items]: Items shorting two nets (nets <no net> and B4)
-    Local override; error
-    @(60.9600 mm, -6.9850 mm): Segment [<no net>] of U$3 on F.Cu
-    @(60.3250 mm, -25.4000 mm): Track [B4] on F.Cu, length 2.6182 mm
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
-    Local override; error
-    @(54.6100 mm, -10.1600 mm): Track [GND] on F.Cu, length 2.5400 mm
-    @(57.1500 mm, -12.7000 mm): Segment [<no net>] of U$3 on F.Cu
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
     Local override; error
     @(50.8000 mm, -21.5900 mm): PTH pad 4 [B0] of J1
     @(49.5300 mm, -17.7800 mm): Track [B2] on F.Cu, length 5.0800 mm
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
-    Local override; error
-    @(50.8000 mm, -21.5900 mm): PTH pad 4 [B0] of J1
-    @(52.0700 mm, -17.7800 mm): Track [B1] on F.Cu, length 5.0800 mm
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
     Local override; error
     @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
     @(57.1500 mm, -15.2400 mm): Segment [<no net>] of U$3 on F.Cu
+[shorting_items]: Items shorting two nets (nets <no net> and B4)
+    Local override; error
+    @(60.9600 mm, -6.9850 mm): Segment [<no net>] of U$3 on F.Cu
+    @(60.3250 mm, -25.4000 mm): Track [B4] on F.Cu, length 2.6182 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(50.8000 mm, -21.5900 mm): PTH pad 4 [B0] of J1
+    @(52.0700 mm, -17.7800 mm): Track [B1] on F.Cu, length 5.0800 mm
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
     Local override; error
     @(53.3400 mm, -21.5900 mm): PTH pad 2 [VCC] of J1
@@ -55,6 +51,10 @@
     Local override; error
     @(54.9275 mm, -21.9075 mm): Track [B0] on B.Cu, length 1.3470 mm
     @(53.3400 mm, -24.1300 mm): PTH pad 1 [B1] of J1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(54.6100 mm, -10.1600 mm): Track [GND] on F.Cu, length 2.5400 mm
+    @(57.1500 mm, -12.7000 mm): Segment [<no net>] of U$3 on F.Cu
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
     Local override; error
     @(57.1500 mm, -10.1600 mm): Track [GND] on F.Cu, length 2.5400 mm
@@ -531,16 +531,16 @@
 ** Found 3 unconnected pads **
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
+    @(57.1500 mm, -15.2400 mm): Pad 2 [B4] of U$3 on F.Cu
     @(60.3250 mm, -25.4000 mm): Track [B4] on F.Cu, length 2.6182 mm
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(54.6100 mm, -10.1600 mm): Track [GND] on B.Cu, length 3.5921 mm
-    @(54.0512 mm, -2.8194 mm): PTH pad 1 [GND] of MODE0
+    @(54.6100 mm, -10.1600 mm): Track [GND] on F.Cu, length 2.5400 mm
+    @(47.5488 mm, -2.8194 mm): Track [GND] on B.Cu, length 6.5024 mm
 [unconnected_items]: Missing connection between items
     Local override; error
     @(57.7850 mm, -25.4000 mm): PTH pad 1 [GND] of UNK4-A2
-    @(48.2600 mm, -21.5900 mm): PTH pad 6 [GND] of J1
+    @(48.2600 mm, -21.5900 mm): Track [GND] on B.Cu, length 7.6200 mm
 
 ** Found 0 Footprint errors **
 
