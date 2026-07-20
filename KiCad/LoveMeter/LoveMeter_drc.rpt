@@ -1,0 +1,554 @@
+** Drc report for LoveMeter.kicad_pcb **
+** Created on 2026-07-19T19:27:50 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 141 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+    @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+    @(57.1500 mm, -15.2400 mm): Pad 2 [B4] of U$3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+    @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+    @(57.1500 mm, -15.2400 mm): Pad 2 [B4] of U$3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+    @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+    @(57.1500 mm, -15.2400 mm): Pad 2 [B4] of U$3 on F.Cu
+[shorting_items]: Items shorting two nets (nets <no net> and B4)
+    Local override; error
+    @(60.9600 mm, -6.9850 mm): Segment [<no net>] of U$3 on F.Cu
+    @(60.3250 mm, -25.4000 mm): Track [B4] on F.Cu, length 2.6182 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(54.6100 mm, -10.1600 mm): Track [GND] on F.Cu, length 2.5400 mm
+    @(57.1500 mm, -12.7000 mm): Segment [<no net>] of U$3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(50.8000 mm, -21.5900 mm): PTH pad 4 [B0] of J1
+    @(49.5300 mm, -17.7800 mm): Track [B2] on F.Cu, length 5.0800 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(50.8000 mm, -21.5900 mm): PTH pad 4 [B0] of J1
+    @(52.0700 mm, -17.7800 mm): Track [B1] on F.Cu, length 5.0800 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
+    @(57.1500 mm, -15.2400 mm): Segment [<no net>] of U$3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(53.3400 mm, -21.5900 mm): PTH pad 2 [VCC] of J1
+    @(53.9750 mm, -22.8600 mm): Track [B0] on B.Cu, length 1.9050 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(54.9275 mm, -21.9075 mm): Track [B0] on B.Cu, length 1.3470 mm
+    @(53.3400 mm, -24.1300 mm): PTH pad 1 [B1] of J1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.1500 mm, -10.1600 mm): Track [GND] on F.Cu, length 2.5400 mm
+    @(57.1500 mm, -12.7000 mm): Segment [<no net>] of U$3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.1500 mm, -15.2400 mm): Pad 2 [B4] of U$3 on F.Cu
+    @(57.1500 mm, -15.2400 mm): Segment [<no net>] of U$3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.1500 mm, -12.7000 mm): Pad 1 [GND] of U$3 on F.Cu
+    @(57.1500 mm, -12.7000 mm): Segment [<no net>] of U$3 on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(8.8382 mm, -3.8100 mm): Arc of LED12 on F.Silkscreen
+    @(6.9850 mm, -3.8100 mm): Reference field of LED12
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(12.0132 mm, -3.8100 mm): Arc of LED11 on F.Silkscreen
+    @(10.1600 mm, -3.8100 mm): Reference field of LED11
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(24.7132 mm, -3.8100 mm): Arc of LED7 on F.Silkscreen
+    @(22.8600 mm, -3.8100 mm): Reference field of LED7
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(21.5382 mm, -3.8100 mm): Arc of LED8 on F.Silkscreen
+    @(19.6850 mm, -3.8100 mm): Reference field of LED8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(26.0350 mm, -3.8100 mm): Reference field of LED6
+    @(27.8882 mm, -3.8100 mm): Arc of LED6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(31.0632 mm, -3.8100 mm): Arc of LED5 on F.Silkscreen
+    @(29.2100 mm, -3.8100 mm): Reference field of LED5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(32.3850 mm, -3.8100 mm): Reference field of LED4
+    @(34.2382 mm, -3.8100 mm): Arc of LED4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4132 mm, -3.8100 mm): Arc of LED3 on F.Silkscreen
+    @(35.5600 mm, -3.8100 mm): Reference field of LED3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.7632 mm, -3.8100 mm): Arc of LED1 on F.Silkscreen
+    @(41.9100 mm, -3.8100 mm): Reference field of LED1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.5882 mm, -3.8100 mm): Arc of LED2 on F.Silkscreen
+    @(38.7350 mm, -3.8100 mm): Reference field of LED2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(13.3350 mm, -3.8100 mm): Reference field of LED10
+    @(15.1882 mm, -3.8100 mm): Arc of LED10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(18.3632 mm, -3.8100 mm): Arc of LED9 on F.Silkscreen
+    @(16.5100 mm, -3.8100 mm): Reference field of LED9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.5188 mm, -26.5938 mm): Reference field of UNK4-A2
+    @(56.6557 mm, -14.4643 mm): Polygon of U$3 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.5725 mm, -5.7150 mm): Segment of LED12 on F.Silkscreen
+    @(8.2550 mm, -5.0800 mm): PTH pad ANODE [B3] of LED12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(11.7475 mm, -5.7150 mm): Segment of LED11 on F.Silkscreen
+    @(11.4300 mm, -5.0800 mm): PTH pad ANODE [B1] of LED11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.8382 mm, -3.8100 mm): Arc of LED12 on F.Silkscreen
+    @(8.2550 mm, -5.0800 mm): PTH pad ANODE [B3] of LED12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.8382 mm, -3.8100 mm): Arc of LED12 on F.Silkscreen
+    @(8.2550 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.6718 mm, -3.8100 mm): Arc of LED12 on F.Silkscreen
+    @(8.2550 mm, -5.0800 mm): PTH pad ANODE [B3] of LED12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.6718 mm, -3.8100 mm): Arc of LED12 on F.Silkscreen
+    @(8.2550 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(12.0132 mm, -3.8100 mm): Arc of LED11 on F.Silkscreen
+    @(11.4300 mm, -5.0800 mm): PTH pad ANODE [B1] of LED11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(12.0132 mm, -3.8100 mm): Arc of LED11 on F.Silkscreen
+    @(11.4300 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.9375 mm, -1.9050 mm): Segment of LED12 on F.Silkscreen
+    @(8.2550 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(11.1125 mm, -1.9050 mm): Segment of LED11 on F.Silkscreen
+    @(11.4300 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.8468 mm, -3.8100 mm): Arc of LED11 on F.Silkscreen
+    @(11.4300 mm, -5.0800 mm): PTH pad ANODE [B1] of LED11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.8468 mm, -3.8100 mm): Arc of LED11 on F.Silkscreen
+    @(11.4300 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.8125 mm, -1.9050 mm): Segment of LED7 on F.Silkscreen
+    @(24.1300 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(20.6375 mm, -1.9050 mm): Segment of LED8 on F.Silkscreen
+    @(20.9550 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(21.2725 mm, -5.7150 mm): Segment of LED8 on F.Silkscreen
+    @(20.9550 mm, -5.0800 mm): PTH pad ANODE [B0] of LED8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(20.3718 mm, -3.8100 mm): Arc of LED8 on F.Silkscreen
+    @(20.9550 mm, -5.0800 mm): PTH pad ANODE [B0] of LED8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(20.3718 mm, -3.8100 mm): Arc of LED8 on F.Silkscreen
+    @(20.9550 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(24.4475 mm, -5.7150 mm): Segment of LED7 on F.Silkscreen
+    @(24.1300 mm, -5.0800 mm): PTH pad ANODE [B3] of LED7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(24.7132 mm, -3.8100 mm): Arc of LED7 on F.Silkscreen
+    @(24.1300 mm, -5.0800 mm): PTH pad ANODE [B3] of LED7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(24.7132 mm, -3.8100 mm): Arc of LED7 on F.Silkscreen
+    @(24.1300 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.5468 mm, -3.8100 mm): Arc of LED7 on F.Silkscreen
+    @(24.1300 mm, -5.0800 mm): PTH pad ANODE [B3] of LED7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.5468 mm, -3.8100 mm): Arc of LED7 on F.Silkscreen
+    @(24.1300 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(26.9875 mm, -1.9050 mm): Segment of LED6 on F.Silkscreen
+    @(27.3050 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(26.7218 mm, -3.8100 mm): Arc of LED6 on F.Silkscreen
+    @(27.3050 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(26.7218 mm, -3.8100 mm): Arc of LED6 on F.Silkscreen
+    @(27.3050 mm, -5.0800 mm): PTH pad ANODE [B3] of LED6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.6225 mm, -5.7150 mm): Segment of LED6 on F.Silkscreen
+    @(27.3050 mm, -5.0800 mm): PTH pad ANODE [B3] of LED6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.8882 mm, -3.8100 mm): Arc of LED6 on F.Silkscreen
+    @(27.3050 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.8882 mm, -3.8100 mm): Arc of LED6 on F.Silkscreen
+    @(27.3050 mm, -5.0800 mm): PTH pad ANODE [B3] of LED6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(31.0632 mm, -3.8100 mm): Arc of LED5 on F.Silkscreen
+    @(30.4800 mm, -5.0800 mm): PTH pad ANODE [B2] of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(31.0632 mm, -3.8100 mm): Arc of LED5 on F.Silkscreen
+    @(30.4800 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(29.8968 mm, -3.8100 mm): Arc of LED5 on F.Silkscreen
+    @(30.4800 mm, -5.0800 mm): PTH pad ANODE [B2] of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(29.8968 mm, -3.8100 mm): Arc of LED5 on F.Silkscreen
+    @(30.4800 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(34.2382 mm, -3.8100 mm): Arc of LED4 on F.Silkscreen
+    @(33.6550 mm, -5.0800 mm): PTH pad ANODE [B2] of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(34.2382 mm, -3.8100 mm): Arc of LED4 on F.Silkscreen
+    @(33.6550 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(30.1625 mm, -1.9050 mm): Segment of LED5 on F.Silkscreen
+    @(30.4800 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(33.3375 mm, -1.9050 mm): Segment of LED4 on F.Silkscreen
+    @(33.6550 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(33.0718 mm, -3.8100 mm): Arc of LED4 on F.Silkscreen
+    @(33.6550 mm, -5.0800 mm): PTH pad ANODE [B2] of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(33.0718 mm, -3.8100 mm): Arc of LED4 on F.Silkscreen
+    @(33.6550 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(36.5125 mm, -1.9050 mm): Segment of LED3 on F.Silkscreen
+    @(36.8300 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(37.1475 mm, -5.7150 mm): Segment of LED3 on F.Silkscreen
+    @(36.8300 mm, -5.0800 mm): PTH pad ANODE [B1] of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(37.4132 mm, -3.8100 mm): Arc of LED3 on F.Silkscreen
+    @(36.8300 mm, -5.0800 mm): PTH pad ANODE [B1] of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(37.4132 mm, -3.8100 mm): Arc of LED3 on F.Silkscreen
+    @(36.8300 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(36.2468 mm, -3.8100 mm): Arc of LED3 on F.Silkscreen
+    @(36.8300 mm, -5.0800 mm): PTH pad ANODE [B1] of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(36.2468 mm, -3.8100 mm): Arc of LED3 on F.Silkscreen
+    @(36.8300 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(40.3225 mm, -5.7150 mm): Segment of LED2 on F.Silkscreen
+    @(40.0050 mm, -5.0800 mm): PTH pad ANODE [B1] of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.4975 mm, -5.7150 mm): Segment of LED1 on F.Silkscreen
+    @(43.1800 mm, -5.0800 mm): PTH pad ANODE [B0] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.8625 mm, -1.9050 mm): Segment of LED1 on F.Silkscreen
+    @(43.1800 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.7632 mm, -3.8100 mm): Arc of LED1 on F.Silkscreen
+    @(43.1800 mm, -5.0800 mm): PTH pad ANODE [B0] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.7632 mm, -3.8100 mm): Arc of LED1 on F.Silkscreen
+    @(43.1800 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.5968 mm, -3.8100 mm): Arc of LED1 on F.Silkscreen
+    @(43.1800 mm, -5.0800 mm): PTH pad ANODE [B0] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.5968 mm, -3.8100 mm): Arc of LED1 on F.Silkscreen
+    @(43.1800 mm, -2.5400 mm): PTH pad CATHODE [B1] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(39.6875 mm, -1.9050 mm): Segment of LED2 on F.Silkscreen
+    @(40.0050 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(40.5882 mm, -3.8100 mm): Arc of LED2 on F.Silkscreen
+    @(40.0050 mm, -5.0800 mm): PTH pad ANODE [B1] of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(40.5882 mm, -3.8100 mm): Arc of LED2 on F.Silkscreen
+    @(40.0050 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(39.4218 mm, -3.8100 mm): Arc of LED2 on F.Silkscreen
+    @(40.0050 mm, -5.0800 mm): PTH pad ANODE [B1] of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(39.4218 mm, -3.8100 mm): Arc of LED2 on F.Silkscreen
+    @(40.0050 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(30.7975 mm, -5.7150 mm): Segment of LED5 on F.Silkscreen
+    @(30.4800 mm, -5.0800 mm): PTH pad ANODE [B2] of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(33.9725 mm, -5.7150 mm): Segment of LED4 on F.Silkscreen
+    @(33.6550 mm, -5.0800 mm): PTH pad ANODE [B2] of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(14.2875 mm, -1.9050 mm): Segment of LED10 on F.Silkscreen
+    @(14.6050 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(14.9225 mm, -5.7150 mm): Segment of LED10 on F.Silkscreen
+    @(14.6050 mm, -5.0800 mm): PTH pad ANODE [B2] of LED10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(15.1882 mm, -3.8100 mm): Arc of LED10 on F.Silkscreen
+    @(14.6050 mm, -5.0800 mm): PTH pad ANODE [B2] of LED10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(15.1882 mm, -3.8100 mm): Arc of LED10 on F.Silkscreen
+    @(14.6050 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(14.0218 mm, -3.8100 mm): Arc of LED10 on F.Silkscreen
+    @(14.6050 mm, -5.0800 mm): PTH pad ANODE [B2] of LED10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(14.0218 mm, -3.8100 mm): Arc of LED10 on F.Silkscreen
+    @(14.6050 mm, -2.5400 mm): PTH pad CATHODE [B0] of LED10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(21.5382 mm, -3.8100 mm): Arc of LED8 on F.Silkscreen
+    @(20.9550 mm, -5.0800 mm): PTH pad ANODE [B0] of LED8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(21.5382 mm, -3.8100 mm): Arc of LED8 on F.Silkscreen
+    @(20.9550 mm, -2.5400 mm): PTH pad CATHODE [B3] of LED8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(17.4625 mm, -1.9050 mm): Segment of LED9 on F.Silkscreen
+    @(17.7800 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(17.1968 mm, -3.8100 mm): Arc of LED9 on F.Silkscreen
+    @(17.7800 mm, -5.0800 mm): PTH pad ANODE [B0] of LED9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(17.1968 mm, -3.8100 mm): Arc of LED9 on F.Silkscreen
+    @(17.7800 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(18.0975 mm, -5.7150 mm): Segment of LED9 on F.Silkscreen
+    @(17.7800 mm, -5.0800 mm): PTH pad ANODE [B0] of LED9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(18.3632 mm, -3.8100 mm): Arc of LED9 on F.Silkscreen
+    @(17.7800 mm, -5.0800 mm): PTH pad ANODE [B0] of LED9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(18.3632 mm, -3.8100 mm): Arc of LED9 on F.Silkscreen
+    @(17.7800 mm, -2.5400 mm): PTH pad CATHODE [B2] of LED9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(57.7850 mm, -23.4950 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(57.7850 mm, -23.4950 mm): PCB text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(29.2100 mm, -3.8100 mm): Reference field of LED5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(29.2100 mm, -3.8100 mm): Reference field of LED5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(13.3350 mm, -3.8100 mm): Reference field of LED10
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(13.3350 mm, -3.8100 mm): Reference field of LED10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(32.3850 mm, -3.8100 mm): Reference field of LED4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(32.3850 mm, -3.8100 mm): Reference field of LED4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(22.8600 mm, -3.8100 mm): Reference field of LED7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(22.8600 mm, -3.8100 mm): Reference field of LED7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(48.2600 mm, -25.7175 mm): Footprint text of J1 (RST)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.2600 mm, -25.7175 mm): Footprint text of J1 (RST)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(48.2600 mm, -20.0025 mm): Footprint text of J1 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.2600 mm, -20.0025 mm): Footprint text of J1 (GND)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(50.8000 mm, -25.7175 mm): Footprint text of J1 (SCK)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(50.8000 mm, -25.7175 mm): Footprint text of J1 (SCK)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(50.8000 mm, -20.0025 mm): Footprint text of J1 (MOSI)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(50.8000 mm, -20.0025 mm): Footprint text of J1 (MOSI)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(53.3400 mm, -25.7175 mm): Footprint text of J1 (MISO)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.3400 mm, -25.7175 mm): Footprint text of J1 (MISO)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(53.3400 mm, -20.0025 mm): Footprint text of J1 (+V)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.3400 mm, -20.0025 mm): Footprint text of J1 (+V)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(35.5600 mm, -3.8100 mm): Reference field of LED3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(35.5600 mm, -3.8100 mm): Reference field of LED3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6985 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.5188 mm, -26.5938 mm): Reference field of UNK4-A2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(6.9850 mm, -3.8100 mm): Reference field of LED12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(6.9850 mm, -3.8100 mm): Reference field of LED12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(41.9100 mm, -3.8100 mm): Reference field of LED1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(41.9100 mm, -3.8100 mm): Reference field of LED1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(19.6850 mm, -3.8100 mm): Reference field of LED8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(19.6850 mm, -3.8100 mm): Reference field of LED8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(26.0350 mm, -3.8100 mm): Reference field of LED6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.0350 mm, -3.8100 mm): Reference field of LED6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(16.5100 mm, -3.8100 mm): Reference field of LED9
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(16.5100 mm, -3.8100 mm): Reference field of LED9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(38.7350 mm, -3.8100 mm): Reference field of LED2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(38.7350 mm, -3.8100 mm): Reference field of LED2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(10.1600 mm, -3.8100 mm): Reference field of LED11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(10.1600 mm, -3.8100 mm): Reference field of LED11
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(60.3250 mm, -25.4000 mm): Track [B4] on F.Cu, length 2.6182 mm
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.0700 mm, -10.1600 mm): Track [B4] on F.Cu, length 7.1842 mm
+    @(60.3250 mm, -25.4000 mm): Track [B4] on F.Cu, length 2.6182 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.6100 mm, -10.1600 mm): Track [GND] on B.Cu, length 3.5921 mm
+    @(54.0512 mm, -2.8194 mm): PTH pad 1 [GND] of MODE0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.7850 mm, -25.4000 mm): PTH pad 1 [GND] of UNK4-A2
+    @(48.2600 mm, -21.5900 mm): PTH pad 6 [GND] of J1
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
